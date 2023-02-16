@@ -9,7 +9,7 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="mt-2 w-full h-20 text-white bg-black flex items-center justify-between p-9">
+    <div className="mt-2 w-full h-20 text-white border-b-2 border-green-100 bg-black flex items-center justify-between p-9">
       <Link href={"/"}>
         <Image
           src={"/logos/panaverse80_80.png"}
@@ -22,10 +22,10 @@ const Nav = () => {
         <li className=" hover:text-green-400 font-medium hover:underline decoration-green-300 underline-offset-8 hover:scale-110">
           About
         </li>
-        <li className=" hover:text-green-400 font-medium hover:underline decoration-green-300 underline-offset-8">
+        <li className=" hover:text-green-400 font-medium hover:underline decoration-green-300 underline-offset-8 hover:scale-110">
           Contact
         </li>
-        <li className=" hover:text-green-400 font-medium hover:underline decoration-green-300 underline-offset-8">
+        <li className=" hover:text-green-400 font-medium hover:underline decoration-green-300 underline-offset-8 hover:scale-110">
           Programs
         </li>
       </ul>

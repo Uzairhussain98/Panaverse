@@ -12,7 +12,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-black">{children}</body>
+      <body className="bg-black bg-[url('/shape-hero.svg')] bg-no-repeat   bg-[center_top_10rem]">
+        {children}
+      </body>
     </html>
   );
 }
