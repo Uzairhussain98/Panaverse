@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     // <div className="bg-[url('/shape-hero.svg')]">
-    <div className="flex flex-col mt-12 md:flex-row md:w-5/6 mx-auto items-center gap-6  text-white">
+    <div className="flex flex-col mt-24 md:flex-row md:w-5/6 mx-auto items-center gap-6  text-white">
       <div className="mx-4 flex flex-col gap-6 md:w-[50%]">
         <h1 className="font-semibold text-left text-[56px] font-mono text-white">
           Panaverse{" "}

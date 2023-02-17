@@ -6,6 +6,8 @@ import Container from "./components/Container";
 import Earn from "./components/Earn";
 import Students from "./components/Students";
 import Programs from "./components/Programs";
+import Test from "./components/Test";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +20,8 @@ export default function Home() {
       <Earn />
       <Students />
       <Programs />
+      <Test />
+      <Footer />
     </>
   );
 }

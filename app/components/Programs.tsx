@@ -19,9 +19,9 @@ const Programs = () => {
       <p className="mb-6 text-[18px] text-center md:px-40 text-gray-300">
         At vero eos et accusamus et iusto odio dignissimos ducimus.
       </p>
-      <div className="flex-col w-full flex  md:flex-row gap-3 ">
+      <div className="flex-col w-full flex flex-wrap  md:flex-row gap-3 ">
         {programs.map(({ id, title, desc }: program) => (
-          <Link href={`/programs/${id}`} key={id}>
+          <Link href={`/Programs/${id}`} key={id}>
             <Box title={title} id={id} desc={desc} />
           </Link>
         ))}
