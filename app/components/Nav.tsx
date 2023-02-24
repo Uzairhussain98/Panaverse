@@ -50,10 +50,25 @@ const Nav = () => {
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       />
       {isMenuOpen && (
-        <div className="absolute top-20 bg-green-200 w-[50vw] right-0 transition duration-1000 ease-in-out">
-          <h3>hello world</h3>
-          <h3>hello world</h3>
-          <h3>hello world</h3>
+        <div className="absolute top-20 bg-white w-[50vw] h-[100vw]  right-0 text-black  transition duration-1000 ease-in-out">
+          <ul className=" flex flex-col gap-8 px-4 mt-4 mb-4 text-2xl h-[100%]">
+            <Link href="/">
+              {" "}
+              <li className="underline underline-offset-8">Home</li>
+            </Link>
+            <Link href="/About">
+              {" "}
+              <li className="underline underline-offset-8">About</li>
+            </Link>
+            <Link href="/Contact">
+              {" "}
+              <li className="underline underline-offset-8">Contact</li>
+            </Link>
+            <Link href="/Programs">
+              {" "}
+              <li className="underline underline-offset-8">Programs</li>
+            </Link>
+          </ul>
         </div>
       )}
     </div>

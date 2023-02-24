@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
@@ -19,7 +19,7 @@ const Students = () => {
         // showArrows
         showThumbs={false}
         swipeable
-        transitionTime={500}
+        transitionTime={2000}
         infiniteLoop
         dynamicHeight
       >

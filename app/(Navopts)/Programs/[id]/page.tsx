@@ -18,7 +18,7 @@ export default async function Program({ params }: { params: { id: string } }) {
   return (
     <>
       <Nav />
-      <div className="flex flex-col gap-3 items-center w-5/6 mx-auto  mt-24 pt-12 text-center">
+      <div className="flex flex-col gap-3 items-center w-5/6 mx-auto mb-4  mt-24 pt-12 text-center">
         <h2 className="font-semibold text-[36px] font-mono text-white">
           {program?.title}
         </h2>

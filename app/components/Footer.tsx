@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-green-100 pt-20 mt-12  h-full  bg-gradient-to-tl from-[#868af5] to-[#00d7af]">
+    <div className="w-full  pt-20 mt-12  h-full  bg-gradient-to-tl from-[#868af5] to-[#00d7af]">
       <div className=" flex flex-col md:flex-row w-5/6 mx-auto justify-between bg-black rounded-lg p-8">
         <div>
           <h2 className="text-white text-3xl">Ready To Get Started ?</h2>
@@ -11,9 +11,9 @@ const Footer = () => {
         <button className="bg-green-500 rounded-lg p-4">Sign Up Now</button>
       </div>
       <div className="pb-10">
-        <div className="mt-12 w-5/6 mx-auto flex flex-col md:flex-row sm:items-center  gap-28 text-white ">
+        <div className="mt-12 w-5/6 mx-auto flex flex-col md:flex-row sm:items-center  gap-12 lg:gap-28 text-white ">
           <div>
-            <h1 className="font-semibold mb-3 text-lg">Connect</h1>
+            <h1 className="font-semibold mb-3 text-lg">Panaverse</h1>
             <p>Helo zu lorem Ipsum zxua sadasdadad sdadad asdasd</p>
           </div>
           <div>
