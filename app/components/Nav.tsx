@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import { MdClose } from "react-icons/md";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -43,12 +43,23 @@ const Nav = () => {
           Sign Up
         </button>
       </div>
-      <GiHamburgerMenu
-        color={"white"}
-        size={30}
-        className="md:hidden"
-        onClick={() => setIsMenuOpen(!isMenuOpen)}
-      />
+
+      {!isMenuOpen ? (
+        <GiHamburgerMenu
+          color={"white"}
+          size={30}
+          className="md:hidden"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        />
+      ) : (
+        <MdClose
+          color="white"
+          size={30}
+          className="md:hidden"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        />
+      )}
+
       {isMenuOpen && (
         <div className="absolute top-20 bg-white w-[50vw] h-[100vw]  right-0 text-black  transition duration-1000 ease-in-out">
           <ul className=" flex flex-col gap-8 px-4 mt-4 mb-4 text-2xl h-[100%]">
