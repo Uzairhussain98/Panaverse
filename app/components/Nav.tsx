@@ -61,7 +61,7 @@ const Nav = () => {
       )}
 
       {isMenuOpen && (
-        <div className="absolute top-20 bg-white w-[50vw] h-[100vw]  right-0 text-black  transition duration-1000 ease-in-out">
+        <div className="absolute top-20 bg-white w-[50vw] h-[100vh]  right-0 text-black transition duration-1000 ease-in-out">
           <ul className=" flex flex-col gap-8 px-4 mt-4 mb-4 text-2xl h-[100%]">
             <Link href="/">
               {" "}

@@ -2,7 +2,7 @@ import Box from "@/app/components/Box";
 import Nav from "@/app/components/Nav";
 import { programs } from "@/app/data/programs";
 
-export async function getStaticParams() {
+export async function generateStaticParams() {
   const ids: string[] = ["1", "2", "3", "4"];
   return ids.map((id) => ({ id: id }));
 }
